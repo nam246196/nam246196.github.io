@@ -1,4 +1,6 @@
-
+button{
+	border-radius: 0;
+}
 }
 ul{
 	margin-bottom: 0px;
@@ -123,7 +125,8 @@ padding: 15px 5px;}
 .cat_button button{
 	  width: 137px;
     font-size: 16px;
-    background: #eb1a20
+    background: #eb1a20;
+    border-radius:0;
 }
 .dropdown-menu {
     display: block;
@@ -1303,7 +1306,7 @@ margin-top: 15px;
 	 margin-bottom: 20px;
 }
 .myy1{
-	padding: 0px 33px;
+	padding: 0px 15px;
 }
 .footer2{
 	background: #2b2b2b;
