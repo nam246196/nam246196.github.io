@@ -103,9 +103,8 @@
 	.congcu3{width: 240%;}
 	.myy{width: 100%;
 }
-}
-		.pagination>li>a{height: 30px;line-height: 20px;width: 30px; margin-right: 3px;}
-		.pagination .first>a, .pagination .last>a{width: 75px;}
+		.pagination>li>a{height: 30px;line-height: 30px;width: 30px; margin-right: 3px;}
+		.pagination .first>a, .pagination .last>a{width: 62px;}
 
 }
 
