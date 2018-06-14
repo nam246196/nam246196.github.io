@@ -351,7 +351,7 @@ padding-right: 15px
     color: #e4171c;
 }
 .navbar-inverse .navbar-nav>li:hover>ul{
-	top:104%;
+	top:108%;
 	visibility: visible;
 	opacity: 1;
 }
@@ -397,12 +397,14 @@ visibility: hidden;
 	top: 80%;	
 	opacity: 0;	
 	transition: all 0.4s;
-	border: 1px solid #ccc;
 	list-style: none;
 	z-index: 1000;
-	margin-left: -27px;
+	margin-left: -23px;
 	min-width: 170px;
 	background: #fff;
+	    -webkit-box-shadow: 0 6px 12px rgba(0,0,0,.175);
+    box-shadow: 0 6px 12px rgba(0,0,0,.175);
+}
 }
 .navbar-inverse .navbar-nav>li>ul li{
 	padding:5px 0;
@@ -1202,13 +1204,11 @@ float: right;
 	   font-size: 15px;
 	   letter-spacing: 1px;
 	   transition: 0.3s;  	
-	   opacity: 1;
 	   min-width: 98px;
 }
 .congcu3 form button:hover{
-	background: #eb1a20;
+	background: #ac2925;
 	border: none;
-	opacity: 0.8;
 }
 .congcu4 {
 	margin-top: 10px
@@ -1303,7 +1303,7 @@ margin-top: 15px;
 	 margin-bottom: 20px;
 }
 .myy1{
-	padding: 0px 40px;
+	padding: 0px 33px;
 }
 .footer2{
 	background: #2b2b2b;
