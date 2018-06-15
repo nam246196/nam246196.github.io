@@ -1398,7 +1398,8 @@ margin-top: 3.5%;
 	overflow-x: visible;
 	margin-top: 0;
 }
-.liststyly>li{
+.liststyly>li{ 
+ 
 	list-style: none;
 }
 .list-group-item button{
