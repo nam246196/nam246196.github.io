@@ -1355,7 +1355,7 @@ left: 0;
 }
 .list-group-item:last-child{
 	border-bottom-right-radius: 0;
-    border-bottom-left-radius: ;
+    border-bottom-left-radius: 0 ;
 }
 .sidenav>a {
     padding: 8px 8px 8px 32px;
