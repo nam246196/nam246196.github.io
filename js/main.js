@@ -113,6 +113,28 @@ $('#btn3').on('click', function(){
          $(".up3").css("display","inline-block");
     }
 });
+$('#btn4').on('click', function(){
+    var x= $("#btn4").attr("aria-expanded");
+    if(x=="true"){
+        $(".up4").css("display","none");
+        $(".down4").css("display","inline-block");
+    }
+    else{
+         $(".down4").css("display","none");
+         $(".up4").css("display","inline-block");
+    }
+});
+$('#btn5').on('click', function(){
+    var x= $("#btn5").attr("aria-expanded");
+    if(x=="true"){
+        $(".up5").css("display","none");
+        $(".down5").css("display","inline-block");
+    }
+    else{
+         $(".down5").css("display","none");
+         $(".up5").css("display","inline-block");
+    }
+});
 $('#btn11').on('click', function(){
     x= $("#btn11").attr("aria-expanded");
     if(x=="true"){

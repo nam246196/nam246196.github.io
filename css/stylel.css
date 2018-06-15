@@ -1407,7 +1407,7 @@ margin-top: 3.5%;
     padding: 7px 17px;
 }
 .list-group-item button i{ line-height: 28px; }
-.up1,.up2,.up3{ display: none; color: #e4171c; }
+.up1,.up2,.up3,.up4,.up5{ display: none; color: #e4171c; }
 .up11,.up21,.up31{ display: none; color: #e4171c; }
 #btn21,#btn11,#btn31{ padding: 6px 17px;}
 }
