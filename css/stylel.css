@@ -1346,10 +1346,7 @@ left: 0;
 }
 .sidenav ul {
 	    -webkit-padding-start: 15px;
-    padding-right: 15px;
-}
-.sidenav li{
-	list-style: none;
+    padding-right: 12px;
 }
 .list-group-item:first-child{
 	border-top-left-radius: 0;
@@ -1376,7 +1373,6 @@ left: 0;
 }
 .sidenav>ul>li{
 	padding: 10px 0 10px 20px;
-	list-style: none;
 }
 .sidenav>li ul li{	padding: 10px 0 10px 45px;}
 .sidenav>ul>li>a{
@@ -1388,7 +1384,8 @@ left: 0;
 margin-top: 3.5%;
     overflow-x: hidden;
     transition: 0.5s;
-        -webkit-padding-start: 19px;
+        -webkit-padding-start: 16px;
+        padding-bottom: 10px;
 
 }
 .sidenav li ul li {
@@ -1400,6 +1397,9 @@ margin-top: 3.5%;
 .sidenav li button:hover ul{
 	overflow-x: visible;
 	margin-top: 0;
+}
+.liststyly>li{
+	list-style: none;
 }
 .list-group-item button{
 	background: transparent;
