@@ -26,6 +26,7 @@
 			.sanpham{width: 100%}
 			.sanpham img{width: 100%}
 			.col-sm-6{margin-bottom: 0 !important}
+			.myy1{padding: 0;}
 }
 @media  screen and (max-width: 991px){
 	.line1,.line4,.line33,.line0{border-right: 0;
@@ -33,7 +34,7 @@
 	.sanpham{padding: 50px;}
 	.img{float: left;}
 	.produc{
-	padding: 15px 0 ;
+	padding: 15px 24px; ;
     margin-top: 30px; }
 		.congcu2{width: 100%;}
 .collapsee{ visibility:hidden;  height: 100%;
@@ -62,7 +63,7 @@
 	.sao {margin-top: 0px;
 		 margin-left: 10px;
 		}
-		.myy1{padding: 0}
+		.myy1{padding: 0 38px;}
 		.cham a{ line-height: 68px; }
 		.produc{
 			margin-top: 0px !important;
@@ -92,7 +93,7 @@
 	.produc{margin-top: 0 !important;
 		padding: 15px;
 	    float: left !important; 
-	    width: 100% !important;}
+	    width: 90% !important;}
 	.sao {margin-right: 0 !important;}
 		.description{padding:10px 15px 5px 0px;}
 		.product-item {width: 100%;padding: 0}

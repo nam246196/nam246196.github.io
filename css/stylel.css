@@ -151,6 +151,7 @@ padding: 15px 5px;}
 }
 .open>.dropdown-menu {
     margin-left: -111px;
+    border-radius: 0;
 }
 .widget_shopping_cart_content{
 
