@@ -1149,7 +1149,7 @@ margin-top: 40px;
 	font-size: 18px;
 	padding: 27px;
 }
-.congcu ul li{
+.congcu>ul>li{
 float: right;
 
 
@@ -1216,6 +1216,9 @@ float: right;
 }
 .congcu4 {
 	margin-top: 10px
+}
+.ul_congcu4{
+	    -webkit-padding-start: 0px;
 }
 .congcu4 li {
 	color: #fff;
@@ -1296,7 +1299,7 @@ margin-top: 15px;
 }
 .my1  li{
 	list-style: none;
-	padding: 5px;
+	padding: 5px 0;
 }
 .my1 i{
 	margin-right: 10px;
