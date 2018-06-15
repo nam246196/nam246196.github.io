@@ -40,24 +40,11 @@ $('.closebtn').on('click', function(){
             $(".description").css("visibility","hidden");
             $(".btn-add").css("transform","");
             $(".icon-wishlist").css("transform","");
-            $(".product-item").css("margin-bottom","0");
             $(".produc").css("float","none");
-            $(".description").css("position","fixed");
-            $(".sao i").css("float","right");
-            $(".produc").css("width","100%");
+            $(".produc").css("padding","0");
             });
     $('#listview').on('click', function(){
-            $(".description").css("visibility","visible");
-            $(".description").css("position","inherit");
-            $(".product-item").css("width","100%");
-            $(".img").css("float","left");
-            $(".sao i").css("float","none");
-            $(".produc").css("float","left");
-            $(".produc").css("width","54%");
-            $(".produc").css("margin-top","30px");
-            $(".btn-add").css("transform","scale(1)");
-            $(".icon-wishlist").css("transform","scale(1)");
-
+           
             });
     // end List View..................................................................................
     // sidenav mobi..................................................................................
@@ -101,7 +88,6 @@ $('#btn2').on('click', function(){
          $(".up2").css("display","inline-block");
     }
 });
-
 $('#btn3').on('click', function(){
     var x= $("#btn3").attr("aria-expanded");
     if(x=="true"){
@@ -111,37 +97,6 @@ $('#btn3').on('click', function(){
     else{
          $(".down3").css("display","none");
          $(".up3").css("display","inline-block");
-    }
-});
-$('#btn11').on('click', function(){
-    x= $("#btn11").attr("aria-expanded");
-    if(x=="true"){
-        $(".up11").css("display","none");
-        $(".down11").css("display","inline-block");
-    }
-    else{
-         $(".down11").css("display","none");
-         $(".up11").css("display","inline-block");
-    }
-});$('#btn21').on('click', function(){
-    x= $("#btn21").attr("aria-expanded");
-    if(x=="true"){
-        $(".up21").css("display","none");
-        $(".down21").css("display","inline-block");
-    }
-    else{
-         $(".down21").css("display","none");
-         $(".up21").css("display","inline-block");
-    }
-});$('#btn31').on('click', function(){
-    x= $("#btn31").attr("aria-expanded");
-    if(x=="true"){
-        $(".up31").css("display","none");
-        $(".down31").css("display","inline-block");
-    }
-    else{
-         $(".down31").css("display","none");
-         $(".up31").css("display","inline-block");
     }
 });
  // and sidenav mobi..................................................................................

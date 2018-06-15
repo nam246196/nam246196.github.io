@@ -202,7 +202,7 @@ padding: 15px 5px;}
 	list-style: none;
 	position: relative;
 	text-align: left;
-	    margin-left: -35px;
+	    margin-left: -21px;
 }
 .header_middle_menu>ul>li>ul>li>a{	
 	display: block;
@@ -375,7 +375,7 @@ padding-right: 15px
 	margin-top: 35px;
 }
 .mega_menu1 .mega1 li{
-	margin-top: -5px;
+	margin-top: 7px;
 }
 .mega_menu1 .mega1 li a:hover{
 	color: #e4171c;
@@ -397,6 +397,7 @@ visibility: hidden;
 .navbar-inverse .navbar-nav>li>ul{
 	position: absolute;
 	visibility: hidden;
+	padding: 15px 15px 15px 40px;
 	top: 80%;	
 	opacity: 0;	
 	transition: all 0.4s;
@@ -421,7 +422,7 @@ visibility: hidden;
 	width: 60px;
 	line-height: 30px;
 	font-size: 15px;
-	font-weight: 500;	
+	font-weight: 400;	
 
 }
 .navbar-nav>li>ul>li:hover {
@@ -1080,7 +1081,7 @@ margin-top: 40px;
 }
 .pagination .cham a{
 	border: none;
-	line-height: 45px;
+	line-height: 68px;
 }
 .pagination .cham a:hover{
 	background: transparent;
@@ -1389,9 +1390,6 @@ margin-top: 3.5%;
 .sidenav li ul li a{
 	color: #2b2b2b;
 }
-.sidenav li ul li a:hover{
-	color: #e4171c;
-}
 .sidenav li button:hover ul{
 	overflow-x: visible;
 	margin-top: 0;
@@ -1402,13 +1400,18 @@ margin-top: 3.5%;
     margin-top: -11px;
     color: #2b2b2b;
     float: right;
-    padding: 12px 17px;
+    padding: 7px 17px;
 }
+.list-group-item button i{ line-height: 28px; }
 .up1,.up2,.up3{ display: none; color: #e4171c; }
+.up11,.up21,.up31{ display: none; color: #e4171c; }
+#btn21,#btn11,#btn31{ padding: 6px 17px;}
+}
 .search_mobi{
 	list-style: none;
 }
 .search_mobi>li {
+	list-style: none;
 	float: right;
 	margin-left: 15px;
 }
