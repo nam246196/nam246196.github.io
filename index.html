@@ -2,7 +2,7 @@
 <html lang="en">
 	<head>
 	<meta charset="utf-8">
-	<meta name="viewport" content="width=device-width, initial-scale=1, maximum-scale=1, user-scalable=no">
+	<meta name="viewport" content="width=device-width, initial-scale=1">
 		<title>layout 1</title>
 		<!-- jquery ui -->
 		 <script src="https://ajax.googleapis.com/ajax/libs/jquery/3.3.1/jquery.min.js"></script>
@@ -18,7 +18,7 @@
 		<link rel="stylesheet" type="text/css" href="css/bootstrap.min.css">
 		<link rel="stylesheet" type="text/css" href="css/stylel.css">
 		<link rel="stylesheet" type="text/css" href="css/risponsive.css">
-		<link href="https://fonts.googleapis.com/css?family=Roboto+Condensed:300,400,700" rel="stylesheet">
+		<link href="https://fonts.googleapis.com/css?family=Roboto+Condensed:300,700" rel="stylesheet">
 	</head>
 	<body >
 	<header>
@@ -65,19 +65,19 @@
 			<div class="img_car"><a href="#"><img alt="" src="img/sanpham/18.jpg"></a>
 			<div class="produc_car">
 			<div class="produ_car"><a href="#">PRODUCT DEMO TITLE </a> </div>
-			<div class="gia_sao_car"><input type="number" id="input1" name="1" value="1"></div>
+			<div class="gia_sao_car"><input type="number" name="1" value="1"></div>
 			<div class="gia_car">x<span> $350.00</span></div></div>	</div></div>
 			<div class="sanpham_car">
 			<div class="img_car"><a href="#"><img alt="" src="img/sanpham/13.jpg"></a>
 			<div class="produc_car">
 			<div class="produ_car"><a href="#">PRODUCT DEMO TITLE </a> </div>
-			<div class="gia_sao_car"><input type="number" id="input1" name="1" value="1"></div>
+			<div class="gia_sao_car"><input type="number" name="1" value="1"></div>
 			<div class="gia_car">x<span> $350.00</span></div></div>	</div></div>
 			<div class="sanpham_car">
 			<div class="img_car"><a href="#"><img alt="" src="img/sanpham/15.jpg"></a>
 			<div class="produc_car">
 			<div class="produ_car"><a href="#">PRODUCT DEMO TITLE </a> </div>
-			<div class="gia_sao_car"><input type="number" id="input1" name="1" value="1"></div>
+			<div class="gia_sao_car"><input type="number" name="1" value="1"></div>
 			<div class="gia_car">x<span> $350.00</span></div></div>	</div></div>
 		</div>
 		<div class="div-total">Total:<span class="total money" id="total-cart">1050$</span></div>
@@ -90,8 +90,8 @@
 				<div class="col-md-9 col-md-pull-1 col-sm-12 col-xs-12" >
 					<div class="all">
 						<div class="row">
-						<form  >
-							<li class="list "><a class="dropdown-toggle" data-toggle="dropdown" href="#">All Category <i class="fa fa-caret-down"></i></a>
+						<form>
+							<button class="dropdown-toggle list" data-toggle="dropdown">All Category <i class="fa fa-caret-down"></i></button>
 						<ul class="dropdown-menu">
     								<li><a href="#">Mother </a></li>
     								<li><a href="#">Food </a></li>
@@ -99,7 +99,6 @@
     								<li><a href="#">Auto </a></li>
     								<li><a href="#">Mirinda </a></li>
     					</ul>
-    				</li>
 						<input class="form-control"  placeholder="Enter kayword here...">
 						<button class="searchhh" type="submit"><b>SEARCH</b></button>
 					</form>
@@ -113,7 +112,7 @@
 			<nav class="navbar navbar-inverse">
   <div class="container">
     <div class="navbar-header">
-<li class="cate"><a class="dropdown-toggle" data-toggle="dropdown" href="#"> <img alt="" src="img/icon!!!.png"> ALL CATEGORIES</a>
+	<ul class="ul_congcu44"><li class="cate"><a class="dropdown-toggle" data-toggle="dropdown" href="#"> <img alt="" src="img/icon!!!.png"> ALL CATEGORIES</a>
 						<ul class="dropdown-menu">
     								<li ><a href="#"><i class="fas fa-chevron-right"></i> Food</a>
     									<ul class="mega_menu2">
@@ -233,7 +232,7 @@
           <li><a href="#">Mascara</a></li>
         </ul>
       </li>
-      
+  </ul>
   </div>
 </nav>
 </header>
@@ -243,7 +242,7 @@
 	<div class="row top_mobi">
 	<div class="col-xs-6"><div class="sidenav " id="mySidenav" >
   <a href="javascript:void(0)" class="closebtn">&times;</a>
-  	<ul><li class="list-group-item"><a href="#">Home <button data-toggle="collapse" data-target="#menu-mobile4" id="btn4"><i class="fas fa-angle-down down4"></i><i class="fas fa-angle-up up4"></i></button></a>	
+  	<ul><li class="list-group-item">Home <button data-toggle="collapse" data-target="#menu-mobile4" id="btn4"><i class="fas fa-angle-down down4"></i><i class="fas fa-angle-up up4"></i></button>	
   									
   								<ul id="menu-mobile4" class="collapse menu-mobile-lv2">
   									  <li><a href="#">About Us</a></li>
@@ -251,9 +250,7 @@
 							          <li><a href="#">Mirinda</a></li>
 							          <li><a href="#">Mascara</a></li>
   								</ul></li>
-      <li class="list-group-item"><a href="#">About Us <button data-toggle="collapse" data-target="#menu-mobile1" class="btnMenu1"  id="btn1"><i class="fas fa-angle-down down1"></i>
-  										<i class="fas fa-angle-up up1"></i></button>
-  									</a>
+      <li class="list-group-item">About Us <button data-toggle="collapse" data-target="#menu-mobile1" class="btnMenu1"  id="btn1"><i class="fas fa-angle-down down1"></i><i class="fas fa-angle-up up1"></i></button>
   								<ul id="menu-mobile1" class="collapse menu-mobile-lv2">
   									 <li><a href="#">About Us</a></li>
 							          <li><a href="#">Contact</a></li>
@@ -261,13 +258,11 @@
 							          <li><a href="#">Mascara</a></li>
   								</ul>
   							</li>
-      <li class="list-group-item"><a href="#">News <button data-toggle="collapse" data-target="#menu-mobile2"  id="btn2"><i class="fas fa-angle-down down2"></i>
-  										<i class="fas fa-angle-up up2"></i></button>
-  									</a>
+      <li class="list-group-item">News <button data-toggle="collapse" data-target="#menu-mobile2"  id="btn2"><i class="fas fa-angle-down down2"></i><i class="fas fa-angle-up up2"></i></button>
   								<ul id="menu-mobile2" class="collapse menu-mobile-lv2 liststyly">
-  									<li><a href="#">ACCESSORIES <button data-toggle="collapse" data-target="#menu-mobile21"  id="btn21"><i class="fas fa-angle-down down21"></i>
-  										<i class="fas fa-angle-up up21"></i></button></a>
-  								<ul id="menu-mobile21" class="collapse menu-mobile-lv2">
+  									<li>ACCESSORIES <button data-toggle="collapse" data-target="#menu-mobile21"  id="btn21"><i class="fas fa-angle-down down21"></i>
+  										<i class="fas fa-angle-up up21"></i></button>
+  								<ul id="menu-mobile21" class="collapse collapsede menu-mobile-lv2">
   											<li><a href="#">Offical </a></li>
 											<li><a href="#">Mascara For</a></li>
 											<li><a href="#">Consme-Decom</a></li>
@@ -277,10 +272,8 @@
 											<li><a href="#">Mirinda</a></li>
   								</ul>
   								</li>
-  									<li><a href="#">ELECTTRONIC <button data-toggle="collapse" data-target="#menu-mobile11"  id="btn11"><i class="fas fa-angle-down down11"></i>
-  										<i class="fas fa-angle-up up11"></i></button>
-  									</a>
-  								<ul id="menu-mobile11" class="collapse menu-mobile-lv2">
+  									<li>ELECTTRONIC <button data-toggle="collapse" data-target="#menu-mobile11"  id="btn11"><i class="fas fa-angle-down down11"></i><i class="fas fa-angle-up up11"></i></button>
+  								<ul id="menu-mobile11" class="collapse collapsede menu-mobile-lv2">
   									<li><a href="#">Capsopia</a></li>
 											<li><a href="#">Chnel </a></li>
 											<li><a href="#">Lady Dior </a></li>
@@ -289,10 +282,8 @@
 											<li><a href="#">Mascara For</a></li>
 											<li><a href="#">Offical </a></li>
   								</ul></li>
-  									<li><a href="#">COMPUTER <button data-toggle="collapse" data-target="#menu-mobile31"  id="btn31"><i class="fas fa-angle-down down31"></i>
-  										<i class="fas fa-angle-up up31"></i></button>
-  									</a>
-  								<ul id="menu-mobile31" class="collapse menu-mobile-lv2">
+  									<li>COMPUTER <button data-toggle="collapse" data-target="#menu-mobile31"  id="btn31"><i class="fas fa-angle-down down31"></i><i class="fas fa-angle-up up31"></i></button>
+  								<ul id="menu-mobile31" class="collapse collapsede menu-mobile-lv2">
   											<li><a href="#">Offical </a></li>
 											<li><a href="#">Mascara For</a></li>
 											<li><a href="#">Consme-Decom</a></li>
@@ -303,7 +294,7 @@
   								</ul></li>
   								</ul>
   							</li>
-      <li class="list-group-item"><a href="#">Contact Us <button data-toggle="collapse" data-target="#menu-mobile5" id="btn5"><i class="fas fa-angle-down down5"></i><i class="fas fa-angle-up up5"></i></button></a>	
+      <li class="list-group-item">Contact Us <button data-toggle="collapse" data-target="#menu-mobile5" id="btn5"><i class="fas fa-angle-down down5"></i><i class="fas fa-angle-up up5"></i></button>	
   									
   								<ul id="menu-mobile5" class="collapse menu-mobile-lv2">
   									  <li><a href="#">About Us</a></li>
@@ -311,7 +302,7 @@
 							          <li><a href="#">Mirinda</a></li>
 							          <li><a href="#">Mascara</a></li>
   								</ul></li>
-     <li class="list-group-item"><a href="#">Pages<button data-toggle="collapse" data-target="#menu-mobile3" id="btn3"><i class="fas fa-angle-down down3"></i><i class="fas fa-angle-up up3"></i></button></a>	
+     <li class="list-group-item">Pages<button data-toggle="collapse" data-target="#menu-mobile3" id="btn3"><i class="fas fa-angle-down down3"></i><i class="fas fa-angle-up up3"></i></button>
   									
   								<ul id="menu-mobile3" class="collapse menu-mobile-lv2">
   									  <li><a href="#">About Us</a></li>
@@ -324,35 +315,34 @@
 </div>
 <span style="font-size:30px;cursor:pointer" class="button1">&#9776; </span></div>
 <div class="search_mobi col-xs-6 ">
+<ul class="ul_congcu4">
 <li><i class="fa fa-shopping-cart" aria-hidden="true"></i>
 									<div class="searchh_mobi">
-            <div class="widget_shopping_cart_content">
 <div class="cart_list ">
 		<div class="empty">
 			<div class="sanpham_car">
 			<div class="img_car"><a href="#"><img alt="" src="img/sanpham/18.jpg"></a>
 			<div class="produc_car">
 			<div class="produ_car"><a href="#">PRODUCT DEMO TITLE </a> </div>
-			<div class="gia_sao_car"><input type="number" id="input1" name="" value="1"></div>
+			<div class="gia_sao_car"><input type="number" name="1" value="1"></div>
 			<div class="gia_car">x<span> $350.00</span></div></div>	</div></div>
 			<div class="sanpham_car">
 			<div class="img_car"><a href="#"><img alt="" src="img/sanpham/13.jpg"></a>
 			<div class="produc_car">
 			<div class="produ_car"><a href="#">PRODUCT DEMO TITLE </a> </div>
-			<div class="gia_sao_car"><input type="number" id="input1" name="" value="1"></div>
+			<div class="gia_sao_car"><input type="number" name="1" value="1"></div>
 			<div class="gia_car">x<span> $350.00</span></div></div>	</div></div>
 			<div class="sanpham_car">
 			<div class="img_car"><a href="#"><img alt="" src="img/sanpham/15.jpg"></a>
 			<div class="produc_car">
 			<div class="produ_car"><a href="#">PRODUCT DEMO TITLE </a> </div>
-			<div class="gia_sao_car"><input type="number" id="input1" name="" value="1"></div>
+			<div class="gia_sao_car"><input type="number" name="1" value="1"></div>
 			<div class="gia_car">x<span> $350.00</span></div></div>	</div></div>
 		</div>
-		<div class="div-total">Total:<span class="total money" id="total-cart">1050$</span></div>
+		<div class="div-total">Total:<span class="total money" id="total-cartt">1050$</span></div>
 		<div class="cat_button"><button class="btn-addtocart btn-danger btn-lg">ADD TO CART</button>
 								<button class="btn-addtocart btn-danger btn-lg">CHECK OUT</button></div>
 </div><!-- end product list -->
-</div>
 </div>
 </li>
 <li><i class="fas fa-user" aria-hidden="true"></i>
@@ -365,7 +355,8 @@
 							<form><input class="form-control"  placeholder="Enter kayword here... ">
 						<button class="search" type="submit"><i class="fas fa-search"></i></button>
 						</form></div>
-					</li>															
+					</li>
+					</ul>															
 </div>
 </div>
 <div class="basel hidden-lg" id="baselMobile"></div>
@@ -419,38 +410,29 @@
 						<ul>
 							
 								
-							<li ><a href="#"><input type="checkbox" name="c1" value="c1" id="c1" /><label for="c1"> Apple (465) </label></a>
-							</li>
-							<li ><a href="#"><input type="checkbox" name="c2" value="c2" id="c2" /> <label for="c2"> Apple (465) </label></a>
-							</li>
-							<li ><a href="#"><input type="checkbox" name="c3" value="c3" id="c3"/> <label for="c3"> Audio-Technica (136)</label></a>
-							</li>
-							<li ><a href="#"><input type="checkbox" name="c4" value="c4" id="c4"/> <label for="c4"> Belkin (121)</label></a>
-							</li>
-							<li ><a href="#"><input type="checkbox" name="c5" value="c5" id="c5"/> <label for="c5"> BlueStone (258)</label></a>
-							</li>
-							<li ><a href="#"><input type="checkbox" name="c6" value="c6" id="c6"/> <label for="c6"> Borther (119)</label></a>
-							</li>
-							<li ><a href="#"><input type="checkbox" name="c7" value="c7" id="c7"/> <label for="c7"> Canon (205)</label></a>
-							</li>
-							<li ><a href="#"><input type="checkbox" name="c8" value="c8" id="c8"/> <label for="c8"> China OEM (113)</label></a>
-							</li>
-							<li ><a href="#"><input type="checkbox" name="c9" value="c9" id="c9"/> <label for="c9"> Comet (330)</label></a>
-							</li>
+							<li ><input type="checkbox" name="c1" value="c1" id="c1" /><label for="c1"> Apple (465) </label></li>
+							<li ><input type="checkbox" name="c2" value="c2" id="c2" /> <label for="c2"> Apple (465) </label>
+							<li ><input type="checkbox" name="c3" value="c3" id="c3"/> <label for="c3"> Audio-Technica (136)</label></li>
+							<li ><input type="checkbox" name="c4" value="c4" id="c4"/> <label for="c4"> Belkin (121)</label></li>
+							<li ><input type="checkbox" name="c5" value="c5" id="c5"/> <label for="c5"> BlueStone (258)</label></li>
+							<li ><input type="checkbox" name="c6" value="c6" id="c6"/> <label for="c6"> Borther (119)</label></li>
+							<li ><input type="checkbox" name="c7" value="c7" id="c7"/> <label for="c7"> Canon (205)</label></li>
+							<li ><input type="checkbox" name="c8" value="c8" id="c8"/> <label for="c8"> China OEM (113)</label></li>
+							<li ><input type="checkbox" name="c9" value="c9" id="c9"/> <label for="c9"> Comet (330)</label></li>
 						</ul>
 					</div>
 					<div class="price"> 
 						<ul >
 							<li><p ><b>PRICE</b></p></li>
-      <div id = "slider-3"></div>
-      <p class="range-p">
+      <li id = "slider-3"></li>
+      <li class="range-p">
          <label for = "price" >Range:</label>
          <input type = "text" id = "price">
-      </p>
+      </li>
 
 							<li class="line3"><img alt="" src="img/line3.png"></li>
 							<li ><p class="colo" ><b>COLOR</b></p></li>
-							<div class="color">
+							<li class="color">
 								<div class="color1"><a href="#"> </a></div>
 								<div class="color2"><a href="#"></a></div>
 								<div class="color3"><a href="#"></a></div>
@@ -463,18 +445,18 @@
 								<div class="color10"><a href="#"></a></div>
 								<div class="color11"><a href="#"></a></div>
 								<div class="color12"><a href="#"></a></div>
-							</div>
+							</li>
 							<li  class="line34"><img alt="" src="img/line3.png"></li>
 							</ul>
 							<div class="size">
 								<p><b>SIZE</b></p>
 							<ul>
-							<li ><a href="#"><input type="checkbox" name="cb1" value="cb1" id="cb1" /><label for="cb1" >  S</label></a></li>
-							<li ><a href="#"><input type="checkbox" name="cb2" value="cb2" id="cb2" /><label for="cb2">  M</label></a></li>
-							<li ><a href="#"><input type="checkbox" name="cb3" value="cb3" id="cb3" /><label for="cb3">  L</label></a></li>
-							<li ><a href="#"><input type="checkbox" name="cb4" value="cb4" id="cb4" /><label for="cb4">  XL</label></a></li>
-							<li ><a href="#"><input type="checkbox" name="cb5" value="cb5" id="cb5" /><label for="cb5">  XXL</label></a></li>
-							<li ><a href="#"><input type="checkbox" name="cb6" value="cb6" id="cb6" /><label for="cb6">  XXXL</label></a></li>
+							<li ><input type="checkbox" name="cb1" value="cb1" id="cb1" /><label for="cb1" >  S</label></li>
+							<li ><input type="checkbox" name="cb2" value="cb2" id="cb2" /><label for="cb2">  M</label></li>
+							<li ><input type="checkbox" name="cb3" value="cb3" id="cb3" /><label for="cb3">  L</label></li>
+							<li ><input type="checkbox" name="cb4" value="cb4" id="cb4" /><label for="cb4">  XL</label></li>
+							<li ><input type="checkbox" name="cb5" value="cb5" id="cb5" /><label for="cb5">  XXL</label></li>
+							<li ><input type="checkbox" name="cb6" value="cb6" id="cb6" /><label for="cb6">  XXXL</label></li>
 						</ul>
 						</div>
 					</div>	
@@ -484,7 +466,7 @@
 
 						</aside>
 						<div class="col-md-9  col-sm-12 col-xs-12">
-							<section>
+							
 							<div class="wrap">
 								<div class="banner"> <figure><a href="#"><img alt="" src="img/banner.jpg"></a></figure></div>
 							</div>
@@ -515,7 +497,7 @@
 										<div class="produc">
 										<div class="produ">
 											<a href="#"><h4>PRODUCT DEMO TITLE</h4>
-														<strike>$700.00</strike>
+														<span class="strike">$700.00</span>
 								 						<span class="gia">$350.00</span>
 								 						<span class="sao"><i class="fas fa-star"></i><i class="fas fa-star"></i><i class="fas fa-star"></i><i class="fas fa-star "></i><i class="fas fa-star"></i></span></a>
 										</div>
@@ -534,7 +516,7 @@
 										<div class="produc">
 										<div class="produ">
 											<a href="#"><h4>PRODUCT DEMO TITLE</h4>
-														<strike>$700.00</strike>
+														<span class="strike">$700.00</span>
 								 						<span class="gia">$350.00</span>
 								 						<span class="sao"><i class="fas fa-star"></i><i class="fas fa-star"></i><i class="fas fa-star"></i><i class="fas fa-star "></i><i class="fas fa-star"></i></span></a>
 										</div>
@@ -553,7 +535,7 @@
 										<div class="produc">
 										<div class="produ">
 											<a href="#"><h4>PRODUCT DEMO TITLE</h4>
-														<strike>$700.00</strike>
+														<span class="strike">$700.00</span>
 								 						<span class="gia">$350.00</span>
 								 						<span class="sao"><i class="fas fa-star"></i><i class="fas fa-star"></i><i class="fas fa-star"></i><i class="fas fa-star "></i><i class="fas fa-star"></i></span></a>
 										</div>
@@ -572,7 +554,7 @@
 										<div class="produc">
 										<div class="produ">
 											<a href="#"><h4>PRODUCT DEMO TITLE</h4>
-														<strike>$700.00</strike>
+														<span class="strike">$700.00</span>
 								 						<span class="gia">$350.00</span>
 								 						<span class="sao"><i class="fas fa-star"></i><i class="fas fa-star"></i><i class="fas fa-star"></i><i class="fas fa-star "></i><i class="fas fa-star"></i></span></a>
 										</div>
@@ -591,7 +573,7 @@
 										<div class="produc">
 										<div class="produ">
 											<a href="#"><h4>PRODUCT DEMO TITLE</h4>
-														<strike>$700.00</strike>
+														<span class="strike">$700.00</span>
 								 						<span class="gia">$350.00</span>
 								 						<span class="sao"><i class="fas fa-star"></i><i class="fas fa-star"></i><i class="fas fa-star"></i><i class="fas fa-star "></i><i class="fas fa-star"></i></span></a>
 										</div>
@@ -610,7 +592,7 @@
 										<div class="produc">
 										<div class="produ">
 											<a href="#"><h4>PRODUCT DEMO TITLE</h4>
-														<strike>$700.00</strike>
+														<span class="strike">$700.00</span>
 								 						<span class="gia">$350.00</span>
 								 						<span class="sao"><i class="fas fa-star"></i><i class="fas fa-star"></i><i class="fas fa-star"></i><i class="fas fa-star "></i><i class="fas fa-star"></i></span></a>
 										</div>
@@ -629,7 +611,7 @@
 										<div class="produc">
 										<div class="produ">
 											<a href="#"><h4>PRODUCT DEMO TITLE</h4>
-														<strike>$700.00</strike>
+														<span class="strike">$700.00</span>
 								 						<span class="gia">$350.00</span>
 								 						<span class="sao"><i class="fas fa-star"></i><i class="fas fa-star"></i><i class="fas fa-star"></i><i class="fas fa-star "></i><i class="fas fa-star"></i></span></a>
 										</div>
@@ -648,7 +630,7 @@
 										<div class="produc">
 										<div class="produ">
 											<a href="#"><h4>PRODUCT DEMO TITLE</h4>
-														<strike>$700.00</strike>
+														<span class="strike">$700.00</span>
 								 						<span class="gia">$350.00</span>
 								 						<span class="sao"><i class="fas fa-star"></i><i class="fas fa-star"></i><i class="fas fa-star"></i><i class="fas fa-star "></i><i class="fas fa-star"></i></span></a>
 										</div>
@@ -667,7 +649,7 @@
 										<div class="produc">
 										<div class="produ">
 											<a href="#"><h4>PRODUCT DEMO TITLE</h4>
-														<strike>$700.00</strike>
+														<span class="strike">$700.00</span>
 								 						<span class="gia">$350.00</span>
 								 						<span class="sao"><i class="fas fa-star"></i><i class="fas fa-star"></i><i class="fas fa-star"></i><i class="fas fa-star "></i><i class="fas fa-star"></i></span></a>
 										</div>
@@ -686,7 +668,7 @@
 										<div class="produc">
 										<div class="produ">
 											<a href="#"><h4>PRODUCT DEMO TITLE</h4>
-														<strike>$700.00</strike>
+														<span class="strike">$700.00</span>
 								 						<span class="gia">$350.00</span>
 								 						<span class="sao"><i class="fas fa-star"></i><i class="fas fa-star"></i><i class="fas fa-star"></i><i class="fas fa-star "></i><i class="fas fa-star"></i></span></a>
 										</div>
@@ -705,7 +687,7 @@
 										<div class="produc">
 										<div class="produ">
 											<a href="#"><h4>PRODUCT DEMO TITLE</h4>
-														<strike>$700.00</strike>
+														<span class="strike">$700.00</span>
 								 						<span class="gia">$350.00</span>
 								 						<span class="sao"><i class="fas fa-star"></i><i class="fas fa-star"></i><i class="fas fa-star"></i><i class="fas fa-star "></i><i class="fas fa-star"></i></span></a>
 										</div>
@@ -724,7 +706,7 @@
 										<div class="produc"> 
 										<div class="produ">
 											<a href="#"><h4>PRODUCT DEMO TITLE</h4>
-														<strike>$700.00</strike>
+														<span class="strike">$700.00</span>
 								 						<span class="gia">$350.00</span>
 								 						<span class="sao"><i class="fas fa-star"></i><i class="fas fa-star"></i><i class="fas fa-star"></i><i class="fas fa-star "></i><i class="fas fa-star"></i></span></a>
 										</div>
@@ -743,7 +725,7 @@
 										<div class="produc">
 										<div class="produ">
 											<a href="#"><h4>PRODUCT DEMO TITLE</h4>
-														<strike>$700.00</strike>
+														<span class="strike">$700.00</span>
 								 						<span class="gia">$350.00</span>
 								 						<span class="sao"><i class="fas fa-star"></i><i class="fas fa-star"></i><i class="fas fa-star"></i><i class="fas fa-star "></i><i class="fas fa-star"></i></span></a>
 										</div>
@@ -762,7 +744,7 @@
 										<div class="produc">
 										<div class="produ">
 											<a href="#"><h4>PRODUCT DEMO TITLE</h4>
-														<strike>$700.00</strike>
+														<span class="strike">$700.00</span>
 								 						<span class="gia">$350.00</span>
 								 						<span class="sao"><i class="fas fa-star"></i><i class="fas fa-star"></i><i class="fas fa-star"></i><i class="fas fa-star "></i><i class="fas fa-star"></i></span></a>
 										</div>
@@ -781,7 +763,7 @@
 										<div class="produc">
 										<div class="produ">
 											<a href="#"><h4>PRODUCT DEMO TITLE</h4>
-														<strike>$700.00</strike>
+														<span class="strike">$700.00</span>
 								 						<span class="gia">$350.00</span>
 								 						<span class="sao"><i class="fas fa-star"></i><i class="fas fa-star"></i><i class="fas fa-star"></i><i class="fas fa-star "></i><i class="fas fa-star"></i></span></a>
 										</div>
@@ -800,7 +782,7 @@
 										<div class="produc">
 										<div class="produ">
 											<a href="#"><h4>PRODUCT DEMO TITLE</h4>
-														<strike>$700.00</strike>
+														<span class="strike">$700.00</span>
 								 						<span class="gia">$350.00</span>
 								 						<span class="sao"><i class="fas fa-star"></i><i class="fas fa-star"></i><i class="fas fa-star"></i><i class="fas fa-star "></i><i class="fas fa-star"></i></span></a>
 										</div>
@@ -819,7 +801,7 @@
 										<div class="produc">
 										<div class="produ">
 											<a href="#"><h4>PRODUCT DEMO TITLE</h4>
-														<strike>$700.00</strike>
+														<span class="strike">$700.00</span>>
 								 						<span class="gia">$350.00</span>
 								 						<span class="sao"><i class="fas fa-star"></i><i class="fas fa-star"></i><i class="fas fa-star"></i><i class="fas fa-star "></i><i class="fas fa-star"></i></span></a>
 										</div>
@@ -838,7 +820,7 @@
 										<div class="produc">
 										<div class="produ">
 											<a href="#"><h4>PRODUCT DEMO TITLE</h4>
-														<strike>$700.00</strike>
+														<span class="strike">$700.00</span>
 								 						<span class="gia">$350.00</span>
 								 						<span class="sao"><i class="fas fa-star"></i><i class="fas fa-star"></i><i class="fas fa-star"></i><i class="fas fa-star "></i><i class="fas fa-star"></i></span></a>
 										</div>
@@ -893,11 +875,12 @@
 					<div class="congcu1"><img alt="" src="img/thu.png"></div>
 				</div>
 					<div class="col-md-3 col-sm-7 col-xs-7">
-					<div class="congcu2"><p><b><a href="#" >SIGN UP FOR NEWSLETTER</a></b></p><ul>Get updates on disconunt & coupons </ul> </div>
+					<div class="congcu2"><p><b><a href="#" >SIGN UP FOR NEWSLETTER</a>
+					</b></p><ul><li>Get updates on disconunt & coupons</li> </ul> </div>
 				</div>
 					<div class="col-md-5  col-sm-6 col-xs-6">
 					 <div class="congcu3"><form>
-					<input type="text" name="" placeholder="Enter kayword here...">
+					<input type="text" placeholder="Enter kayword here...">
 							
 							<button  type="submit"><b>SUBSCRIBE</b></button>
 							</form></div>
@@ -915,7 +898,6 @@
 					</div>
 			</div>
 		</div>
-	</div>
 	<div class="clear"></div>
 		<footer class="footer1">
 			<div class="container">
@@ -924,7 +906,7 @@
 				<div class="col-md-3 col-sm-6 col-xs-6 myy">
 				<div class="my ">
 					<ul class="">
-						<a href="#"><p ><b>MY ACCOUNT</b> </p> </a>
+						<li class="lis_sty"><p ><b>MY ACCOUNT</b> </p> </li>
 						<li ><a href="#"> My Account</a></li>
 						<li ><a href="#"> Login</a></li>
 						<li ><a href="#">My Cart</a></li>
@@ -935,7 +917,7 @@
 				<div class="col-md-3 col-sm-6 col-xs-6 myy">
 				<div class="my ">
 					<ul>
-						<a href="#"><p ><b>INFORMATION</b> </p> </a>
+						<li class="lis_sty"><p ><b>INFORMATION</b> </p> </li>
 						<li ><a href="#">Information</a></li>
 						<li ><a href="#"> Orders History</a></li>
 						<li ><a href="#">My Wishlist</a></li>
@@ -946,7 +928,8 @@
 				<div class="col-md-3 col-sm-6 col-xs-6 myy">
 				<div class="my ">
 					<ul>
-						<a href="#"><p><b>OUR SERVICES</b> </p> </a>
+						<li class="lis_sty"><p><b>OUR SERVICES</b> </p></li>
+
 						<li ><a href="#">Product Racall</a></li>
 						<li ><a href="#"> Gift And Exchanges</a></li>
 						<li ><a href="#">My Cart</a></li>
@@ -956,12 +939,14 @@
 				</div></div>
 				<div class="col-md-3 col-sm-6 col-xs-6 myy myy1">
 				<div class="my1">
-						<a href=""><p ><b>CONTACT US</b> </p> </a>
+						<a href="#"><p ><b>CONTACT US</b> </p> </a>
+						<ul class="ul_congcu4">
 						<li><i class="fas fa-building"></i><a href="#"> 262 Milacina Mrest,Behansed,Paris</a></li>
 						<li><i class="fas fa-envelope"></i><a href="#">  contact@uourcompany.com</a></li>
 						<li><i class="fas fa-phone"></i><a href="#"> 070-7782-9137</a></li>
 						<li><i class="fas fa-fax"></i><a href="#"> 707-7782-9137</a></li>
 						<li><i class="far fa-clock"></i><a href="#"> 09:00 AM - 18:00 PM</a></li>
+					</ul>
 				</div>
 		</div>
 	</div>
