@@ -1284,7 +1284,7 @@ color: #393939;
 .my1  li a:hover{
 	color: #e4171c;
 }
-.my1  li{
+.my1 li{
 	list-style: none;
 	padding: 5px 0;
 	white-space: nowrap;
@@ -1374,7 +1374,7 @@ left: 0;
 .sidenav>li ul li{	padding: 10px 0 10px 45px;}
 .sidenav>ul>li>a{
 	color: #2b2b2b;
-	font-size: 18px;
+	font-size: 18px;   
 }
 .sidenav li ul{
 	background: transparent;
