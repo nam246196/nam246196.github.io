@@ -1137,9 +1137,8 @@ margin-top: 40px;
 }
 .congcu>ul>li{
 float: right;
-
-
 }
+.congcu12{padding-right: 0}
 .congcu1{
 	float: left;
 }
@@ -1173,7 +1172,6 @@ float: right;
     border: 2px solid #eb1a20;
     background: #fff;
     height: 41px;
-    margin-left: -15px;
 }
 .congcu3 form input{
 	outline: 0;
@@ -1183,9 +1181,6 @@ float: right;
 	       margin-left: 6px;
     margin-top: 7px;
     width: 69%;
-}
-.congcu3 .form-control{
-
 }
 .congcu3 form button{
 	width: 27.47%;
@@ -1292,6 +1287,9 @@ color: #393939;
 .my1  li{
 	list-style: none;
 	padding: 5px 0;
+	white-space: nowrap;
+    overflow: hidden;
+    text-overflow: ellipsis;
 }
 .my1 i{
 	margin-right: 10px;
