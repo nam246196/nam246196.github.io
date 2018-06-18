@@ -1426,12 +1426,12 @@ margin-top: 3.5%;
 .search_mobi>ul>li {
 	list-style: none;
 	float: right;
-	margin-left: 9px;
+	margin-left: 15px;
 }
 .search_mobi>ul>li>i{
 	padding: 14px 0;
 	float: right;
-	margin-left: 20px;
+	margin-left: 14px;
 }
 .sear_mobi{
 	visibility: hidden;
