@@ -268,7 +268,7 @@ padding: 15px 5px;}
 }
 .all .list{
 	font-family: roboto condensed;
-	color: #2b2b2b;
+	color: #040404;
 	list-style: none;
 	min-width: 100px;
 	position: absolute;
@@ -277,6 +277,7 @@ padding: 15px 5px;}
 	margin-top: 0;
 	background: transparent;
 	width: 133px;
+	font-weight: 500;
 }
 .all  li ul li a {
 	margin-left: -23px;
