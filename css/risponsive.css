@@ -12,7 +12,7 @@
 	.line3 img {width: 95%}
 	.line34 img {width: 95%}
 	.congcu4 li{margin-left: 5px;}
-	.congcu2{width: 118%; padding: 7px 0;}
+	.congcu2{   padding: 7px 0;}
 				.sanpham img{width: 100%}
 	.product-item{margin-bottom: 0 !important;}
 							.mega_menu1{display: none;}
@@ -26,7 +26,6 @@
 			.sanpham{width: 100%}
 			.sanpham img{width: 100%}
 			.col-sm-6{margin-bottom: 0 !important}
-			.myy1{padding: 0;}
 }
 @media  screen and (max-width: 991px){
 	.line1,.line4,.line33,.line0{border-right: 0;
@@ -63,7 +62,9 @@
 	.sao {margin-top: 0px;
 		 margin-left: 10px;
 		}
-		.myy1{padding: 0 38px;}
+		.congcu3 form input {
+	width: 66%;
+}
 		.cham a{ line-height: 68px; }
 		.produc{
 			margin-top: 0px !important;
@@ -99,15 +100,12 @@
 		.product-item {width: 100%;padding: 0}
 		.top320{display: none;}
 		.sanpham img{width: auto !important }
-		.congcu2{margin-top: 60px;text-align: center;
-
-    width: 203%;
-    margin-left: -95%;}
+		.congcu2{text-align: center;}
     .sao i {float: none !important;}
     .congcu1{text-align: center;
-    width: 270%;
     float: none;
 }
+
 .congcu4{margin-left: 10%; width: 87%;}
 	.congcu3{width: 240%;}
 	.myy{width: 100%;
@@ -119,6 +117,8 @@
 
 
 @media  screen and (max-width: 320px) {
+	.congcu3 form input {
+	width: 55%;}
 	.a320 {display: none;}
 	.congcu3{width: 255%}
 	.sanpham{padding: 0;}
