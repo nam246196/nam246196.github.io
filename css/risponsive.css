@@ -15,7 +15,6 @@
 	.congcu2{   padding: 7px 0;}
 				.sanpham img{width: 100%}
 	.product-item{margin-bottom: 0 !important;}
-	.my1 li{width: 210px;}
 							.mega_menu1{display: none;}
 			.mega_menu2{display: none;}
 }
@@ -29,7 +28,6 @@
 			.col-sm-6{margin-bottom: 0 !important}
 }
 @media  screen and (max-width: 991px){
-	.my1 li{width: 250px;}
 	.line1,.line4,.line33,.line0{border-right: 0;
 						padding: 30px}
 	.sanpham{padding: 50px;}
@@ -59,12 +57,13 @@
 	.topnva_mobi{display: block;}
 	.top_bar{display:none;}
 	.fullter{display: block;}
+	.congcu1{width: 100%;text-align: center;}
 	}
 @media  screen and (max-width: 768px) {
 	.sao {margin-top: 0px;
 		 margin-left: 10px;
 		}
-	.congcu1{width: 100%;text-align: center;}
+	
 		.congcu3 form input {
 	width: 66%;
 }

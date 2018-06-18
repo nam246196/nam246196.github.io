@@ -45,6 +45,9 @@ $('.closebtn').on('click', function(){
             $(".description").css("position","fixed");
             $(".sao i").css("float","right");
             $(".produc").css("width","100%");
+            $(".menu2").css("border","1px solid #e4171c");
+            $(".menu1").css("border","1px solid #d6d6d6");
+
             });
     $('#listview').on('click', function(){
             $(".description").css("visibility","visible");
@@ -57,6 +60,8 @@ $('.closebtn').on('click', function(){
             $(".produc").css("margin-top","30px");
             $(".btn-add").css("transform","scale(1)");
             $(".icon-wishlist").css("transform","scale(1)");
+            $(".menu1").css("border","1px solid #e4171c");
+            $(".menu2").css("border","1px solid #d6d6d6");
 
             });
     // end List View..................................................................................
