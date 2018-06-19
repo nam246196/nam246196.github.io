@@ -100,9 +100,13 @@ padding: 15px 5px;}
 	    float: left;
     margin-top: 25px;
     margin-left: 25px;
+
 }
+.produ_car{
+	padding-bottom: 10px;}
 .produ_car a{
 	color: #2b2b2b;
+	font-weight: 500;
 }
 .gia_car{
 	float: left;
@@ -631,10 +635,8 @@ input[type="checkbox"] +label:before{
 	background-clip: padding-box;
 
 }
-label {
-margin-left: -25px;
+.brands label {
 font-weight: 400;
-margin-top: 12px;
 }
 input[type="checkbox"]:checked +label:before {
 	content: "\2713";
@@ -642,8 +644,9 @@ input[type="checkbox"]:checked +label:before {
 .brands ul li{
 	list-style: none;
 	 color: #6c6c6c;
-	 margin-left: 10px;
+	 margin-left: -15px;
 	 font-size: 15px;
+	 padding: 6px 0;
 }
 .brands  h4{
     padding-top: 24px;
@@ -660,31 +663,21 @@ input[type="checkbox"]:checked +label:before {
 }  
 .price h4{ 
 	 font-family: Roboto ;
-	 padding: 10px;
-	    margin-left: -22px;
 	    margin-bottom: 22px;
 	    letter-spacing: 1px;
 	    font-weight: 700;
-	    margin-left: 16px;
-    margin-top: 20px;
+    margin-top: 30px;
 }
 .pri{
-	height: 82px;
-    margin-left: 38px;
-    margin-right: 10px;
+	margin-right: 25px;
+	margin-left: 25px;
 }
 .ui-slider>label{
-	margin-left: 0px;
-    margin-top: 28px;
-    float: left;
     font-family: roboto;
     font-size: 16px;
 
 }
 .ui-slider>input{
-	float: right;
-    width: 160px;
-    margin-top: 28px;
     font-family: roboto;
 }
 .ui-corner-all, .ui-corner-bottom, .ui-corner-right, .ui-corner-br{
@@ -714,12 +707,10 @@ input[type="checkbox"]:checked +label:before {
     outline: 0;
 }
 #slider-3{
-	margin-left: -15px;
 	background: #d2d2ce;
-	margin-top: -15px;
 }
 .range-p{
-	margin-top: -12px !important;
+	padding-top: 26px;
 }
 button, input, select, textarea{
 	    margin-top: 33px;
@@ -770,22 +761,19 @@ button, input, select, textarea{
 	margin-left: -17px;
 	margin-top: 60px;
 }
-.colo {
-	margin-bottom: 10px !important;
-	margin-left: -21px !important;
-	margin-top: 10px !important;
-}
 .color div{
 	float: left;
-	margin-right: 7px;
-	margin-bottom: 6px;
 	height: 25px;
 	width: 25px;
 	cursor: pointer;
+	margin: 3px;
 }
 .color{
-	margin-left: -12px;
-
+	margin-left: 25px;
+    float: left;
+    margin-right: 25px;
+    padding-bottom: 25px;
+    border-bottom: 1px solid #e9e9e9;
 }
 .color1 {
 	background: #abb1bd;
@@ -824,22 +812,40 @@ button, input, select, textarea{
 	background: #ebc301;
 }
 .size h4{
-	 margin-left: 16px;
-	margin-top: 24px;
-    font-family: Roboto;
-    letter-spacing: 1px;
-    margin-bottom: 0;
+	 margin-left: 25px;
 }
-.size{ margin-left: -30px; }
+.size label {
+
+font-weight: 400;
+}
+.size{ float: left;
+    width: 100%; }
 .size ul li {
 	margin-top: 1px;
-	margin-left: 10px;
+	margin-left: -15px;
 	color: #6c6c6c;
+	padding: 6px 0;
+
 }
 .size ul li  a:hover{
 	color: #e4171c;
 	background: transparent;
 	border: none;
+}
+.check-mark {
+    position: absolute;
+    top: 15px;
+    left: 21px;
+    height: 12px;
+    width: 12px;
+    border: 1px solid #e9e9e9;
+    background-color: white;
+}
+input:checked ~ .check-mark:after{
+	content: "\2713";
+    position: absolute;
+    top: -6px;
+    left: 0;
 }
 .sale{
 	margin-top: 30px;
@@ -918,28 +924,24 @@ margin-bottom: 0;
 .electronic{
 	border-bottom: 3px solid #e3161b;
 	    width: 130px;
-	margin-top: 27px;
 	margin-left: -15px;
+	padding-top: 7px;
 }
-.showing a{
-	float: right;
+.showing {
     color: #2c2c2c;
     font-size: 15px;
-    line-height: 39px;
     font-family: Roboto ;
 text-align: center;
 text-decoration: none;
-margin-top: 30px;
+padding-right: 20px;
 }
 .menu4{
 	padding: 9px 0px 0px 9px;
-    float: right;
+    background: #fff;
+    margin-top: 0 ;
     width: 40px;
     height: 40px;
-    margin-top: 30px;
-    margin-right: -15px;
-    margin-left: 21px;\
-    background: #fff;    	
+
 }
 .show>button:active {
     border: 1px solid red;}
@@ -947,10 +949,13 @@ margin-top: 30px;
 	    margin-top: -9px;
     margin-left: -7px;
 }
+.pro_item{
+	padding: 30px 0 0 0;
+	text-align: right;
+}
 .pro_item button{
 	background: #fff;
 	border: 1px solid #d6d6d6;
-	float: right;
 }
 .elec_show{
 	border-bottom: 1px solid #d6d6d6;
@@ -1063,13 +1068,12 @@ a:focus, a:hover{
 .roww{text-align: center;
 }
 .pagination {
-	margin-top: 30px;
 	border-radius: 0px;
+	padding-top: 50px;
 }
 .pagination li a{
 	height: 40px;
 	width: 40px;
-margin-top: 40px;
 	text-align: center;
 	line-height: 40px;
 	margin-right: 11px;
@@ -1094,6 +1098,9 @@ margin-top: 40px;
 	color: #fff;
 	background: #e4171c;
 	border: none;
+}
+.pagination>li {
+	float: left;
 }
 .pagination>li:first-child>a{
 	    border-radius: 0px;
@@ -1272,13 +1279,6 @@ padding: 30px 0px;
 .my {
 	float: left;
 }
-.my p{
-color: #393939;
-	 font-size: 20px;
-	 margin-left: -15px;
-	margin-bottom: 20px;
-	margin-top: 15px;
-}
 .my ul li a{
 	color: #666666;
 	bottom: 10px;
@@ -1320,10 +1320,17 @@ color: #393939;
 }
 .myy1 span{
 	margin-left: 22px;
-	color: #2b2b2b;
+	color: #747474;
 	    line-height: 30px;
 }
-.lis_sty{margin-left: 20px;}
+.myy1 span i{
+	color: #2b2b2b;
+}
+.lis_sty{
+	margin-left: 20px;
+    font-weight: 700;
+    font-size: 19.98px;
+}
 .footer2{
 	background: #2b2b2b;
 }
@@ -1533,7 +1540,8 @@ margin-top: 3.5%;
     transition: all .3s ease;
 }
 .hidden-lg button, input, select, textarea{
-	margin-top: 17px;
+	margin-top: 0px;
+	width: 120px;
 }
 /*aaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaa*/
 .button1{
