@@ -338,6 +338,7 @@ padding-right: 15px
 	    outline: 0;
 		border: none;
 		height: 36px;
+		 border-radius: 0;
 }
 .header3{
 	height: 51px;
@@ -1509,7 +1510,8 @@ margin-top: 3.5%;
 .sear_mobi .form-control{
 	padding: 0 45px 0 10px;
 	border: 1px solid #ccc;
-	    border-radius: inherit;
+	    border-radius: inherit;\
+
 }
 .search{
 	float: right;
