@@ -44,7 +44,7 @@ font-family: Roboto ;
 }
 .span_top{font-weight: 700;}
 .logo{
-	margin-top: 25px;
+	padding-top: 25px;
 }
 .logo_search{
 	height: 99px;
