@@ -19,7 +19,6 @@
 			.mega_menu2{display: none;}
 }
 @media  screen and (max-width: 1024px) {
-	.logo{line-height:0;}
 			.container {width: 100%;
 				margin: auto;}
 			.border{width: 97%}
