@@ -172,3 +172,14 @@ $('#btn11').on('click', function(){
     }
 });
  // and sidenav mobi..................................................................................
+         $('#x_search').on('click', function(){
+            $(".sear_mobi").css("visibility","hidden");
+            $(".tim_mobi").css("color","#2b2b2b");
+
+});
+          $('#searc_mobi1').on('click', function(){
+            $(".sear_mobi").css("visibility","visible");
+             $(".tim_mobi").css("color","red");
+             
+});
+          

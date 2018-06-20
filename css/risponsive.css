@@ -60,36 +60,27 @@
 	.congcu1{width: 100%;text-align: center;}
 	}
 @media  screen and (max-width: 768px) {
-	.sao {margin-top: 0px;
-		 margin-left: 10px;
-		}
-	
-		.congcu3 form input {
-	width: 66%;
-}
+	.sao {margin-top: 0px; margin-left: 10px;	}
+		.congcu3 form input {width: 66%;}
 		.cham a{ line-height: 68px; }
-		.produc{
-			margin-top: 0px !important;
-		}
-		.img{
-			float: left;}
+		.produc{margin-top: 0px !important;}
+		.img{	float: left;}
 	 .sanpham{padding: 50px;}
-
-		.visa{display: none;}
-		.coppy{width: 178%;text-align: center;}
+	 .visa{display: none;}
+	.coppy{width: 178%;text-align: center;}
 }
 
 @media  screen and (max-width: 680px) {
 	.showing{display: none;}
 	.sanpham {padding: 0}
 	.congcu3{width: 220%;}
-	.congcu4{width: 75%;
-		margin-left: 27%;}
+	.congcu4{width: 75%;}
 	.congcu2{margin-left: -44px;}
 	.congcu1{margin-right: 15px;}
 
 }
 @media  screen and (max-width: 480px) {
+	.congcu3 form input {width: 64%;}
     .pagination .cham a{line-height: 48px;}
 	.search_mobi>li>i{margin-left: 11px;}
 	.produc{margin-top: 0 !important;
@@ -101,13 +92,13 @@
 		.product-item {width: 100%;padding: 0}
 		.top320{display: none;}
 		.sanpham img{width: auto !important }
-		.congcu2{text-align: center; width: 120%}
+		.congcu2{text-align: center; width: 126%}
     .sao i {float: none !important;}
     .congcu1{text-align: center;
     float: none;
 }
 
-.congcu4{margin-left: 10%; width: 87%;}
+.congcu4{padding-left: 16%;width: 100%;}
 	.congcu3{width: 240%;}
 	.myy{width: 100%;
 }
@@ -118,10 +109,10 @@
 
 
 @media  screen and (max-width: 320px) {
-	.congcu3 form input {
-	width: 55%;}
+	.congcu3 form input {width: 55%;}
+	.congcu4{padding-left: 7%;}
 	.a320 {display: none;}
-	.congcu3{width: 255%}
+	.congcu3{width: 230%}
 	.sanpham{padding: 0;}
 	.last{width: 40px;}
 	.first{width: 40px;}
