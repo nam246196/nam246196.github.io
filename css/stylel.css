@@ -712,6 +712,7 @@ input[type="checkbox"]:checked +label:before {
 .range-p{
 	padding-top: 26px;
 }
+.range-p label{  font-size: 16px; }
 button, input, select, textarea{
 	    margin-top: 33px;
 	    border: none;
