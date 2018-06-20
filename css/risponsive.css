@@ -68,6 +68,7 @@
 	 .sanpham{padding: 50px;}
 	 .visa{display: none;}
 	.coppy{width: 178%;text-align: center;}
+	.sear_mobi .form-control{width: 93%}
 }
 
 @media  screen and (max-width: 680px) {
@@ -77,9 +78,11 @@
 	.congcu4{width: 75%;}
 	.congcu2{margin-left: -44px;}
 	.congcu1{margin-right: 15px;}
+	.sear_mobi .form-control{width: 92%}
 
 }
 @media  screen and (max-width: 480px) {
+	.sear_mobi .form-control{width: 85%}
 	.congcu3 form input {width: 64%;}
     .pagination .cham a{line-height: 48px;}
 	.search_mobi>li>i{margin-left: 11px;}

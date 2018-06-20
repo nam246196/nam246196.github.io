@@ -1516,7 +1516,7 @@ margin-top: 3.5%;
 .x_search{
 	    margin-top: 2px;
     float: right;
-    margin-right: -6px;
+    margin-right: -8px;
     background: transparent;
     font-size: 23px;
 }
@@ -1525,6 +1525,9 @@ margin-top: 3.5%;
 	border: 1px solid #ccc;
 	    border-radius: inherit;
 	    width: 85%
+	        white-space: nowrap;
+    overflow: hidden;
+    text-overflow: ellipsis;
 
 }
 .search{
