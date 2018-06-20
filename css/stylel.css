@@ -1228,7 +1228,7 @@ float: right;
 	border: none;
 }
 .congcu4 {
-	margin-top: 10px
+	margin-top: 10px;
 }
 .ul_congcu4{
 	    -webkit-padding-start: 0px;
@@ -1241,12 +1241,11 @@ float: right;
 	color: #fff;
 	width: 45px;
 	height: 45px;
-	float: left;
 	list-style: none;
 	border-radius: 40px;
-	margin-left: 10px;
 	text-align: center;
 	line-height: 45px;
+	display: inline-block;
 }
 .congcu4 div i{
 	color: #fff;
@@ -1462,7 +1461,7 @@ margin-top: 3.5%;
     z-index: 1;
     width: 100%;
     border: 1px solid #ccc;
-        padding: 10px;
+        padding: 10px 8px 10px 5px;
     height: 58px;
     background: #fff;
     left: -57px;
@@ -1524,7 +1523,7 @@ margin-top: 3.5%;
 	padding: 0 32px 0 10px;
 	border: 1px solid #ccc;
 	    border-radius: inherit;
-	    width: 85%
+	    width: 85%;
 	        white-space: nowrap;
     overflow: hidden;
     text-overflow: ellipsis;

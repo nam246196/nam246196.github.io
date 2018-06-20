@@ -11,7 +11,6 @@
 	.size ul li{height: 30px;}
 	.line3 img {width: 95%}
 	.line34 img {width: 95%}
-	.congcu4 li{margin-left: 5px;}
 	.congcu2{   padding: 7px 0;}
 	.sanpham img{width: 100%}
 	.product-item{margin-bottom: 0 !important;}
@@ -54,9 +53,10 @@
 	.top_bar{display:none;}
 	.fullter{display: block;}
 	.congcu1{width: 100%;text-align: center;}
+	.sear_mobi .form-control{width: 93%}
 	}
 @media  screen and (max-width: 768px) {
-	.sao {margin-top: 0px; margin-left: 10px;	}
+	.sao {margin-top: 0px; margin-left: 5px;	}
 	.congcu3 form input {width: 66%;}
 	.cham a{ line-height: 68px; }
 	.produc{margin-top: 0px !important;}
@@ -64,22 +64,22 @@
 	.sanpham{padding: 50px;}
 	.visa{display: none;}
 	.coppy{width: 178%;text-align: center;}
-	.sear_mobi .form-control{width: 93%}
+	
 }
 
 @media  screen and (max-width: 680px) {
 	.showing{display: none;}
 	.sanpham {padding: 0}
-	.congcu3{width: 220%;}
-	.congcu4{width: 75%;}
-	.congcu2{margin-left: -44px;}
+	.congcu4{width: 100%; text-align: center;}
 	.congcu1{margin-right: 15px;}
-	.sear_mobi .form-control{width: 92%}
+	.sear_mobi .form-control{width: 90%}
+			.congcu333{width: 100%}
+			.congcu3 form input {width: 68%;}
 
 }
 @media  screen and (max-width: 480px) {
 		.sear_mobi .form-control{width: 86%}
-		.congcu3 form input {width: 64%;}
+		.congcu3 form input {width: 61%;}
     	.pagination .cham a{line-height: 48px;}
 		.search_mobi>li>i{margin-left: 11px;}
 		.produc{margin-top: 0 !important;padding: 15px;float: left !important;width: 90% !important;}
@@ -88,11 +88,11 @@
 		.product-item {width: 100%;padding: 0}
 		.top320{display: none;}
 		.sanpham img{width: auto !important }
-		.congcu2{text-align: center; width: 126%}
+		.congcu2{text-align: center; width: 100%}
     	.sao i {float: none !important;}
    		.congcu1{text-align: center; float: none;}
-		.congcu4{padding-left: 16%;width: 100%;}
-		.congcu3{width: 240%;}
+		.congcu4{width: 100%;}
+		.congcu333{width: 100%}
 		.myy{width: 100%;}
 		.pagination>li>a{height: 30px;line-height: 30px;width: 30px; margin-right: 3px;}
 		.pagination .first>a, .pagination .last>a{width: 62px;}
@@ -100,9 +100,7 @@
 @media  screen and (max-width: 320px) {
 	.sear_mobi .form-control{width: 84%}
 	.congcu3 form input {width: 55%;}
-	.congcu4{padding-left: 7%;}
 	.a320 {display: none;}
-	.congcu3{width: 230%}
 	.sanpham{padding: 0;}
 	.last{width: 40px;}
 	.first{width: 40px;}
