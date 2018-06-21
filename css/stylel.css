@@ -41,7 +41,17 @@ font-family: Roboto ;
 	float:left;
 	margin-top: 2px;
 	font-size: 13px;
+	
 }
+.cal{
+	background-image: url(img/spritesheet.png);
+    background-position: -114px -7px;
+    height: 19px;
+    width: 23px;
+    display: inline-block;
+    float: left;
+}
+
 .span_top{font-weight: 700;}
 .logo{
 	padding-top: 25px;
@@ -57,13 +67,20 @@ font-family: Roboto ;
 .giohang>img{
 	margin-right: 10px;
 }
+.goigang_png{
+	background-image: url(img/spritesheet.png);
+    background-position: -3px -3px;
+    height: 47px;
+    width: 48px;
+    display: inline-block;
+    float: left;
+}
 .them{
 	position: absolute;
 	width: 16px;
 	height:16px;
 	border-radius: 50%;
 	background: #eb1922;
-	margin-top: -38px;
 	margin-left: 33px;
 	text-align: center;
 	color: #fff;
@@ -459,10 +476,18 @@ visibility: hidden;
 	color: #fff;
 	padding: 14px 67px;
 }
-.cate>a>img{
+.cate>a>.iconlist{
 	    margin-right: 15px;
     margin-top: -3px;
     margin-left: -48px;
+	
+}
+.iconlist{
+	background-image: url(img/spritesheet.png);
+    background-position: -163px 89px;
+    height: 16px;
+    width: 21px;
+    display: inline-block;
 }
 .cate>ul {
 	margin-right: 73%;
@@ -504,6 +529,9 @@ visibility: hidden;
 	list-style: none;
 	margin: 0;
 	margin-left: -38px;
+}
+.column{
+	clear: none;
 }
 .mega1 li a{
 	color: #767676;
@@ -937,25 +965,30 @@ text-decoration: none;
 padding-right: 20px;
 }
 .menu4{
-	padding: 9px 0px 0px 9px;
+	padding: 11px;
     background: #fff;
     margin-top: 0 ;
     width: 40px;
     height: 40px;
 
 }
+.menu2{
+	    background-image: url(img/spritesheet.png);
+    background-position: -75px 1px;
+    display: inline-block;
+}
+.menu1{
+	background-image: url(img/spritesheet.png);
+    background-position: -45px 1px;
+    display: inline-block;
+}
 .show>button:active {
     border: 1px solid red;}
-.menu4 img{
-	    margin-top: -9px;
-    margin-left: -7px;
-}
 .pro_item{
 	padding: 30px 0 0 0;
 	text-align: right;
 }
 .pro_item button{
-	background: #fff;
 	border: 1px solid #d6d6d6;
 }
 .elec_show{
@@ -1125,6 +1158,34 @@ a:focus, a:hover{
 	padding: 64px;
 	margin-top: 70px;
 }
+.fre{
+	    background-image: url(img/spritesheet.png);
+    background-position: -140px -5px;
+    display: inline-block;
+    width: 46px;
+    height: 47px;
+}
+.sup{
+	background-image: url(img/spritesheet.png);
+    background-position: -4px -88px;
+    display: inline-block;
+    width: 52px;
+    height: 47px;
+}
+.hel{
+	background-image: url(img/spritesheet.png);
+    background-position: -191px -5px;
+    display: inline-block;
+    width: 52px;
+    height: 47px;
+}
+.con{
+	background-image: url(img/spritesheet.png);
+    background-position: 57px -5px;
+    display: inline-block;
+    width: 52px;
+    height: 47px;
+}
 .free {
 	text-align: center;
 	color: #fff;
@@ -1166,6 +1227,13 @@ float: right;
 .congcu12{padding:0;}
 .congcu1{
 	float: left;
+}
+.congcu1{
+	background-image: url(img/spritesheet.png);
+    background-position: -74px 102px;
+    display: inline-block;
+    width: 67px;
+    height: 66px;
 }
 .congcu2{
 	float: left;
@@ -1341,6 +1409,13 @@ padding: 30px 0px;
 .visa{
 	padding: 31px 0px;
     float: right;
+}
+.foot{
+	background-image: url(img/spritesheet.png);
+    background-position: -78px 140px;
+    display: inline-block;
+    width: 298px;
+    height: 20px;
 }
 .breadcrumb>li+li:before {
 	    content: "\00a0";

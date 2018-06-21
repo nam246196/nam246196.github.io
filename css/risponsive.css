@@ -44,7 +44,7 @@
     .collapsee .closebtn{visibility: visible;}
     .button2{visibility: visible;}
     .main{display: block;}
-	/*top_mobi*/
+		/*top_mobi*/
 	.header_middle_menu{display:none}
   	.calll{display: none;}
   	.logo_search{display: none;}
@@ -72,7 +72,7 @@
 	.sanpham {padding: 0}
 	.congcu4{width: 100%; text-align: center;}
 	.congcu1{margin-right: 15px;}
-	.sear_mobi .form-control{width: 91%}
+	.sear_mobi .form-control{width: 90%}
 	.congcu333{width: 100%}
 	.congcu3 form input {width: 68%;}
 
@@ -80,7 +80,7 @@
 @media  screen and (max-width: 480px) {
 		.sear_mobi .form-control{width: 86%}
 		.congcu3 form input {width: 61%;}
-    		.pagination .cham a{line-height: 48px;}
+    	.pagination .cham a{line-height: 48px;}
 		.search_mobi>li>i{margin-left: 11px;}
 		.produc{margin-top: 0 !important;padding: 15px;float: left !important;width: 90% !important;}
 		.sao {margin-right: 0 !important;}
