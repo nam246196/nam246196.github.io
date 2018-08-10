@@ -1,0 +1,30 @@
+@media screen and (max-width: 1170px) {
+.unlimited .branding   { padding: 50px 15px 56px 15px;}
+.unlimited .website{padding: 50px 15px 51px 15px;}
+.unlimited .customer{    padding: 50px 15px 53px 15px;}
+.unlimited .development{padding: 50px 15px 53px 15px;}
+.unlimited .branding{padding: 50px 15px 56px 15px;}
+.affixx{padding-top: 15px !important;}
+.affixx .sidenav .navbar{margin-bottom: 0;}
+
+}
+@media screen and (max-width: 1024px) {
+	.pull-right{padding-top: 13px;}
+}
+@media screen and (max-width: 991px) {
+	.careate img{width: 100%;}
+	.container_header{top: 30%;}
+}
+@media screen and (max-width: 768px){
+.affixx .sidenav{padding-right: 15px;}
+.affixx .logo{padding-left: 15px;}
+}
+@media screen and (max-width: 568px){
+.layer { padding-top: 73px;}
+.affixx{position: fixed !important;padding-bottom: 10px !important;}
+}
+
+@media screen and (max-width: 480px){
+	.button1{padding: 12px;}
+	.container_header{top: 37%; h1{padding-bottom: 0;}}
+}
